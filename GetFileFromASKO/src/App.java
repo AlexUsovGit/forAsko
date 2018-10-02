@@ -14,7 +14,7 @@ public class App extends Application {
 
 
     public void start( Stage window) throws Exception {
-        Parent root = FXMLLoader.load(getClass().getResource("/views/MainScreenView.fxml"));
+        Parent root = FXMLLoader.load(getClass().getResource("MainScreenView.fxml"));
         Scene scene = new Scene(root, 1024, 724);
         window.setTitle("Test");
         window.setScene(scene);
